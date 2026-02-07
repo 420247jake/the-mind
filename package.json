@@ -1,0 +1,41 @@
+{
+  "name": "the-mind",
+  "version": "0.2.0",
+  "description": "Navigate an AI's consciousness. Watch it think. See how ideas connect.",
+  "author": "Jake Terrell",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx tsc && npx vite build",
+    "preview": "npx vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.92.0",
+    "@react-three/fiber": "^8.15.0",
+    "@react-three/postprocessing": "^2.16.0",
+    "@tauri-apps/api": "^2.9.1",
+    "@tauri-apps/plugin-global-shortcut": "^2.3.1",
+    "better-sqlite3": "^9.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.159.0",
+    "uuid": "^9.0.1",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/better-sqlite3": "^7.6.8",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.3.7",
+    "@types/three": "^0.159.0",
+    "@types/uuid": "^9.0.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}
